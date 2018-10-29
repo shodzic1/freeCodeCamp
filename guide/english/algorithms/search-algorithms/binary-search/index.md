@@ -1,5 +1,5 @@
 ---
-title: Binary Search
+title: BINARY SEARCH
 ---
 
 ## Binary Search
