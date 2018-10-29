@@ -15,6 +15,19 @@ The name arises as a result of the algorithm jumping elements with steps equal t
 1. Jump the array `2^i` elements at a time searching for the condition `Array[2^(i-1)] < valueWanted < Array[2^i]`. If `2^i` is greater than the lenght of array, then set the upper bound to the length of the array.
 2. Do a binary search between `Array[2^(i-1)]` and `Array[2^i]`
 
+# Example
+
+Given a sorted array, and an element x to be 
+searched, find position of x in the array.
+
+Input:  arr[] = {10, 20, 40, 45, 55}
+        x = 45
+Output: Element found at index 3
+
+Input:  arr[] = {10, 15, 25, 45, 55}
+        x = 15
+Output: Element found at index 1
+
 
 # Code 
 ```
